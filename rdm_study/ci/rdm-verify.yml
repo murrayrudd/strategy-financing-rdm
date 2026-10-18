@@ -1,0 +1,32 @@
+name: Verify RDM research release
+on:
+  push:
+    paths: ['rdm_study/**', '.github/workflows/rdm-verify.yml']
+  pull_request:
+    paths: ['rdm_study/**', '.github/workflows/rdm-verify.yml']
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      OPENBLAS_NUM_THREADS: '1'
+      OMP_NUM_THREADS: '1'
+      RDM_SOURCE_REPO: ${{ github.workspace }}/_rdm_source
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/checkout@v4
+        with:
+          repository: murrayrudd/strategy-financing-feasibility
+          ref: ea7aef9f566af346a133712b93357c5b0a0c3c33
+          path: _rdm_source
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12.14'
+          cache: pip
+          cache-dependency-path: rdm_study/requirements.txt
+      - run: python -m pip install -r rdm_study/requirements.txt
+      - run: python _rdm_source/scripts/unpack_data.py
+      - run: python rdm_study/verify_release.py

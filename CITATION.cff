@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "Please cite the accompanying paper and identify the model version and repository commit used."
+type: software
+title: "Strategy financing under deep uncertainty: code and replication materials"
+version: 1.1.0
+authors:
+  - family-names: Rudd
+    given-names: Murray A.
+    orcid: "https://orcid.org/0000-0001-9533-5070"
+keywords:
+  - Bitcoin treasury companies
+  - robust decision making
+  - scenario discovery
+  - PRIM
+  - corporate financing
+preferred-citation:
+  type: unpublished
+  title: "Strategy financing under deep uncertainty"
+  authors:
+    - family-names: Rudd
+      given-names: Murray A.
+      orcid: "https://orcid.org/0000-0001-9533-5070"
+  year: 2026
+  notes: "Working paper. Public manuscript URL and DOI will be added when available."

@@ -1,0 +1,272 @@
+{
+  "frozen_at_utc": "2026-10-11T16:47:51.277105+00:00",
+  "identity": {
+    "simulation": {
+      "extension_version": "1.1.0",
+      "inherited_engine_schema_version": "0.6.0",
+      "source": {
+        "commit": "ea7aef9f566af346a133712b93357c5b0a0c3c33",
+        "dependency_sha256": "1be685b0ed3224841d8b14de58d3ce2cbd00f85b7bb231211451e2c813adbd8a"
+      },
+      "python": "3.12.14",
+      "dependencies": {
+        "numpy": "2.3.5",
+        "pandas": "2.2.3",
+        "scipy": "1.17.0",
+        "holidays": "0.106",
+        "python-dateutil": "2.9.0.post0"
+      },
+      "code": {
+        "common.py": "36e08ca037933e6776786af88448dc411d72cf8f0f6e1dac7af3ea73237538e4",
+        "engine.py": "7da93f119b7e515ba8863c70fa89c52b60a0e811055cac55f565d01bd74152a0",
+        "terms.py": "df0cae8ca0ed71f93325d0e6d682f83d5b2b6235685aabb0886384547d166899",
+        "futures.py": "3f4b4e513f15c91072b019495c873bcb5cae7926680b74d7688406d19b959c42",
+        "model.py": "f2d0b390786b29464baff26158e4d3db17839c05747c7e8874d069e4a041c7fd",
+        "metrics.py": "1ad2bd6820b33325a3139067694fba9a24950ebb77f19d8c93c06341bdd087dc",
+        "execution.py": "2ec51130380740622ace54be5bace0679eaff3b9c510b8ea89d912a7dd48b450",
+        "run_study.py": "f03c2c5f9d84555677e3c70e3c1022f2ca94458debf54b62d6d564b400fdd7b9",
+        "sensitivity.py": "7218efdb387a29a5f232fb7a5281dcae2d4dc6a326b0b0dc973baf279986164e",
+        "diagnostic_sales.py": "f855a7e499e2d40fa7d021a94b7551167da7a3163880d1da90ab37f496c063ef",
+        "component_validation.py": "3449eff2af8bd5e4e8a622b8894f77d5ff2a7a16f105a08afd4e7934442901bd"
+      }
+    },
+    "supplemental_code": {
+      "run_convergence.py": "c95e4317931d2c24cf5977e00fb210bb22757ce45c7654583bb07e8cf3977a02",
+      "analyze_convergence.py": "c5797ed5e823640564c65c0a48d8a168edb50e49a93b83e13c7e08112109f7f3"
+    },
+    "discovery_code_sha256": "3a5d1e34fd8e0c983ac66489af21c73130996cfbacf316148971e21317892022",
+    "discovery_dependencies": {
+      "ema_workbench": "3.0.0",
+      "scikit-learn": "1.8.0"
+    }
+  },
+  "batches": [
+    {
+      "tag": "lhs_2000_r1",
+      "n": 2000,
+      "replicate": 1,
+      "seed": 410011,
+      "input_sha256": "522b94e41af7ad11be2e72f90e057b4eb324d320e3e3ff8284e7579281e91d91",
+      "split_sha256": "d774774282648e73c5e50457c7f4111503bb5d8a6cc27e8394ef1ae7e1060aad"
+    },
+    {
+      "tag": "lhs_2000_r2",
+      "n": 2000,
+      "replicate": 2,
+      "seed": 410029,
+      "input_sha256": "56a0a4fb1024976dfa273b53358dbe60850fe676a14500f414b262341be2f07c",
+      "split_sha256": "28a770126bf5f3fcc5a34997f4596239da9e7b1aa0bd159f6572869b07ef079f"
+    },
+    {
+      "tag": "lhs_2000_r3",
+      "n": 2000,
+      "replicate": 3,
+      "seed": 410047,
+      "input_sha256": "15447945c764e31425c0ee252136f03e20ce2bbd40919d42996790cea6619b38",
+      "split_sha256": "0d81132cdc19e817c4ff5af94d9c80425587f189e87499b76772d8f3c4cb3d02"
+    },
+    {
+      "tag": "lhs_5000_r1",
+      "n": 5000,
+      "replicate": 1,
+      "seed": 510013,
+      "input_sha256": "ae8da4d78cede7f3319a633f19aa6afdb14d8588a30c9484685a0a0565dafc2b",
+      "split_sha256": "6be02ec8ad07859fee69d771994d985725684307bb238ea07717d48e5cfff80c"
+    },
+    {
+      "tag": "lhs_5000_r2",
+      "n": 5000,
+      "replicate": 2,
+      "seed": 510031,
+      "input_sha256": "e7d5d00cc930dcf51100b4a6c1f28743e155c36c767175e0bdc9cd9f1412336c",
+      "split_sha256": "6b14049244d1e6b1f2d44092ad7849685e65ea95cd599a042637d58a16706f4d"
+    },
+    {
+      "tag": "lhs_5000_r3",
+      "n": 5000,
+      "replicate": 3,
+      "seed": 510047,
+      "input_sha256": "df3e87b36009ed8b9b732241f855eb79264870caeed518311da5ea7179eeda4c",
+      "split_sha256": "eb2e5c9b0cbe213f281cc09be7e2de4cd6b6f612ef59556b1b8ed66a071c4c4f"
+    },
+    {
+      "tag": "lhs_10000_r1",
+      "n": 10000,
+      "replicate": 1,
+      "seed": 610031,
+      "input_sha256": "629a9a5afea3090c97a61c9eb753a3f3fd9e329ace33828b9f4443a156671537",
+      "split_sha256": "4bdb2efb3097753d7e4d244c916a894be54e8619c47e39096c3bd4c8795e2013"
+    },
+    {
+      "tag": "lhs_10000_r2",
+      "n": 10000,
+      "replicate": 2,
+      "seed": 610043,
+      "input_sha256": "886a53fcb9a46df015d1ac4ec1839aa30c4e1cea21fae153296fdef73190cfad",
+      "split_sha256": "5b01315e454cbed3e67d30e65be8b60985bb12846b9fcd1b0626bd8b204362b4"
+    },
+    {
+      "tag": "lhs_10000_r3",
+      "n": 10000,
+      "replicate": 3,
+      "seed": 610051,
+      "input_sha256": "489e520360abfc2825a5f4b1b5ab4d00a12eafdbb70a99db4afde2699672d4c9",
+      "split_sha256": "a8f2aab370903b8fd79ff863e3f4ee75dce2463aa27c8566a080cc62d55535e8"
+    }
+  ],
+  "policies": {
+    "reference_0": {
+      "screen": "reference",
+      "strc_scale": 0.0,
+      "liquidity_months": 0,
+      "preferred_cap": null,
+      "anticipatory": false,
+      "general_sale_authority": 0.0
+    },
+    "reference_50": {
+      "screen": "reference",
+      "strc_scale": 0.5,
+      "liquidity_months": 0,
+      "preferred_cap": null,
+      "anticipatory": false,
+      "general_sale_authority": 0.0
+    },
+    "reference_100": {
+      "screen": "reference",
+      "strc_scale": 1.0,
+      "liquidity_months": 0,
+      "preferred_cap": null,
+      "anticipatory": false,
+      "general_sale_authority": 0.0
+    },
+    "bps_0": {
+      "screen": "bps",
+      "strc_scale": 0.0,
+      "liquidity_months": 0,
+      "preferred_cap": null,
+      "anticipatory": false,
+      "general_sale_authority": 0.0
+    },
+    "bps_50": {
+      "screen": "bps",
+      "strc_scale": 0.5,
+      "liquidity_months": 0,
+      "preferred_cap": null,
+      "anticipatory": false,
+      "general_sale_authority": 0.0
+    },
+    "bps_100": {
+      "screen": "bps",
+      "strc_scale": 1.0,
+      "liquidity_months": 0,
+      "preferred_cap": null,
+      "anticipatory": false,
+      "general_sale_authority": 0.0
+    },
+    "liquidity_12": {
+      "screen": "bps",
+      "strc_scale": 1.0,
+      "liquidity_months": 12,
+      "preferred_cap": null,
+      "anticipatory": false,
+      "general_sale_authority": 0.0
+    },
+    "liquidity_cap": {
+      "screen": "bps",
+      "strc_scale": 1.0,
+      "liquidity_months": 12,
+      "preferred_cap": 0.5,
+      "anticipatory": false,
+      "general_sale_authority": 0.0
+    },
+    "anticipatory_12": {
+      "screen": "bps",
+      "strc_scale": 1.0,
+      "liquidity_months": 12,
+      "preferred_cap": 0.5,
+      "anticipatory": true,
+      "general_sale_authority": 0.0
+    },
+    "anticipatory_sale": {
+      "screen": "bps",
+      "strc_scale": 1.0,
+      "liquidity_months": 12,
+      "preferred_cap": 0.5,
+      "anticipatory": true,
+      "general_sale_authority": 6753703000.0
+    },
+    "sales_only": {
+      "screen": "bps",
+      "strc_scale": 1.0,
+      "liquidity_months": 12,
+      "preferred_cap": 0.5,
+      "anticipatory": false,
+      "general_sale_authority": 6753703000.0
+    }
+  },
+  "pairs": [
+    [
+      "anticipatory_12",
+      "bps_100"
+    ],
+    [
+      "anticipatory_sale",
+      "bps_100"
+    ],
+    [
+      "sales_only",
+      "liquidity_cap"
+    ],
+    [
+      "anticipatory_12",
+      "liquidity_cap"
+    ],
+    [
+      "anticipatory_sale",
+      "sales_only"
+    ],
+    [
+      "anticipatory_sale",
+      "anticipatory_12"
+    ]
+  ],
+  "prim_policies": [
+    "reference_100",
+    "bps_100",
+    "liquidity_cap"
+  ],
+  "horizons": [
+    "2031-06-30",
+    "2033-06-30"
+  ],
+  "primary_outcomes": [
+    "payments",
+    "funded"
+  ],
+  "secondary_outcomes": [
+    "nominal_value",
+    "annual_5pct",
+    "bitcoin_per_share"
+  ],
+  "original_main_sha256": "0afdba17f1c9e5928b9d2148239dfbac467872cbf5123e6a29d80e876c23b415",
+  "original_prim_sha256": "cc78c0252eed062c91ea4ec40405bc63438e211b3fc0ed52ed50a9a94c96e97e",
+  "sampling": "Independent ordinary scrambled Latin hypercubes, 15 continuous inputs and 3 binary branches. Same main design mixture and generators; no nested prefixes or appended LHS claim.",
+  "discovery": "Unchanged PRIM algorithm and selection, 75/25 split by future. Fit three report reference policies for funded and nominal-value failure at both long endpoints. No policy retuning.",
+  "common_probe": "The original 2000 main futures, excluded from every new fit. Used only to compare selected regions; fresh per-batch holdouts provide separate validation.",
+  "criteria": {
+    "policy_share_range_pp": 2.0,
+    "policy_mean_shift_pp": 1.0,
+    "paired_effect_range_pp": 2.0,
+    "paired_effect_mean_shift_pp": 1.0,
+    "policy_scope": "Funded shares for all 11 policies at both long horizons; six prespecified funded paired net effects at both horizons. Payments and shareholder targets are secondary.",
+    "substantive": "Advance funding increases funded success in both sale settings; adding sales improves payment completion more than funded success; adding advance funding with sales improves funded success more than payment completion, at both long horizons in every replicate.",
+    "prim_density_coverage_range_pp": 10.0,
+    "prim_mask_jaccard_min": 0.6,
+    "prim_feature_direction_jaccard_min": 0.5,
+    "prim_scope": "BPS 100 first box and union for funded and nominal-value failure at June 2031, compared across all three largest-size fits on the common probe. First-box feature/direction overlap is also required. Other policies and 2033 are secondary.",
+    "prim_mean_shift_pp": 10.0,
+    "interpretation": "Pragmatic prespecified tolerances for this study, not universal statistical thresholds. Three replications cannot certify exhaustive coverage."
+  },
+  "escalation": "After 2000 and 5000 batches, run all three predesignated 10000 batches if any primary policy, component interpretation, or PRIM criterion fails. Stop after 10000 regardless; report any remaining instability rather than retuning.",
+  "boundaries": "No new closure-tail, structural or historical-pool experiment. Conditional sample frequencies are not event probabilities. Near-equal rankings and rare-event thresholds require separate interpretation."
+}

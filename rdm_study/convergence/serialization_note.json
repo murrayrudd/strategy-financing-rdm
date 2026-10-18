@@ -1,0 +1,19 @@
+{
+  "date_utc": "2026-10-11T18:36:11.790448+00:00",
+  "problem": "The computed failed-check dataframe has heterogeneous descriptive metadata. Pandas fills inapplicable columns with NaN, which the strict JSON export rejects.",
+  "correction": "evaluate_stage.py maps nonfinite values to null only in the seven optional descriptive metadata fields. Nonfinite numerical criterion values still raise.",
+  "frozen_analysis_sha256": "c5797ed5e823640564c65c0a48d8a168edb50e49a93b83e13c7e08112109f7f3",
+  "adapter_sha256": "9c716ba6828a512d2cd8363a251641ac0e137ed730c0c180e9d1bba4c89c92d1",
+  "model_inputs_fits_criteria_unchanged": true,
+  "tests": {
+    "absent_metadata_becomes_null": true,
+    "numerical_nan_rejected": true,
+    "six_failed_prim_checks_preserved": true
+  },
+  "initial_stage": {
+    "paired": true,
+    "policy": true,
+    "prim": false,
+    "interpretation": true
+  }
+}

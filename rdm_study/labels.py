@@ -1,0 +1,2 @@
+"""Report labels without simulation dependencies."""
+LABELS={'reference_0':'Reference 0','reference_50':'Reference 50','reference_100':'Reference 100','bps_0':'BPS 0','bps_50':'BPS 50','bps_100':'BPS 100','liquidity_12':'Cash protection','liquidity_cap':'Cash and STRC cap','anticipatory_12':'Advance cash funding','anticipatory_sale':'Advance funding and sales','sales_only':'Sales permission only'}

@@ -1,0 +1,111 @@
+{
+  "passed": true,
+  "largest_n": 10000,
+  "batches": [
+    {
+      "tag": "lhs_2000_r1",
+      "futures": 2000,
+      "policy_evaluations": 22000,
+      "checkpoint_rows": 88000,
+      "independent_checks": 8260494,
+      "max_stock_flow_difference": 0.0009939074516296387,
+      "csv_sha256": "82f7a27f6aff5512f98b7cb76447ca956c6b28337ce6a7534c2fb0f0a87ab4a4",
+      "passed": true
+    },
+    {
+      "tag": "lhs_2000_r2",
+      "futures": 2000,
+      "policy_evaluations": 22000,
+      "checkpoint_rows": 88000,
+      "independent_checks": 8301372,
+      "max_stock_flow_difference": 0.0003972053527832031,
+      "csv_sha256": "e501c4aae6d404505aaafae2973a80d4524f54266f4edb0db84988a82dcacfb4",
+      "passed": true
+    },
+    {
+      "tag": "lhs_2000_r3",
+      "futures": 2000,
+      "policy_evaluations": 22000,
+      "checkpoint_rows": 88000,
+      "independent_checks": 8269110,
+      "max_stock_flow_difference": 0.0005443394184112549,
+      "csv_sha256": "c7423ffceaad33267df3cfb314ac9ca7473f6aea32f5744eb9035722ab0e16b8",
+      "passed": true
+    },
+    {
+      "tag": "lhs_5000_r1",
+      "futures": 5000,
+      "policy_evaluations": 55000,
+      "checkpoint_rows": 220000,
+      "independent_checks": 20675768,
+      "max_stock_flow_difference": 0.0020326972007751465,
+      "csv_sha256": "f1f4a246307de24e4b1ca1b1f66eadcc7657a4a15986ee52e3235075b0f53042",
+      "passed": true
+    },
+    {
+      "tag": "lhs_5000_r2",
+      "futures": 5000,
+      "policy_evaluations": 55000,
+      "checkpoint_rows": 220000,
+      "independent_checks": 20663543,
+      "max_stock_flow_difference": 0.0005644112825393677,
+      "csv_sha256": "66554913760edc73139cc5b941fe0007681b099fcdab33c5f692eb8e2c80d9d3",
+      "passed": true
+    },
+    {
+      "tag": "lhs_5000_r3",
+      "futures": 5000,
+      "policy_evaluations": 55000,
+      "checkpoint_rows": 220000,
+      "independent_checks": 20637383,
+      "max_stock_flow_difference": 0.0012053251266479492,
+      "csv_sha256": "49ebe7c6b0f9db11c28d475413664d458e1745cb2ebc4666409efbb23a7f5b8e",
+      "passed": true
+    },
+    {
+      "tag": "lhs_10000_r1",
+      "futures": 10000,
+      "policy_evaluations": 110000,
+      "checkpoint_rows": 440000,
+      "independent_checks": 41303855,
+      "max_stock_flow_difference": 0.0013744831085205078,
+      "csv_sha256": "4f5f3f08c5402195d2c885e1f1ea73db4ae1c73d16057fdb381f76f12a96ac0e",
+      "passed": true
+    },
+    {
+      "tag": "lhs_10000_r2",
+      "futures": 10000,
+      "policy_evaluations": 110000,
+      "checkpoint_rows": 440000,
+      "independent_checks": 41333598,
+      "max_stock_flow_difference": 0.001684725284576416,
+      "csv_sha256": "d4e96c6b42a9f26d7bae26b8cedf6f9a47f5edf0790b815c97796f99d0d21a74",
+      "passed": true
+    },
+    {
+      "tag": "lhs_10000_r3",
+      "futures": 10000,
+      "policy_evaluations": 110000,
+      "checkpoint_rows": 440000,
+      "independent_checks": 41357025,
+      "max_stock_flow_difference": 0.001643553376197815,
+      "csv_sha256": "22b62aa68ad1245a3fc254228e6c21e8fbcf2f61ab39c149d8111423860778d1",
+      "passed": true
+    }
+  ],
+  "unique_futures": 51000,
+  "evaluations": 561000,
+  "protocol_sha256": "3744b3211b9ad72b4ff36dc197a2cc49823b47e3235cd80978187a56d9818d8b",
+  "checks": [
+    "unchanged engine, source and numerical environment",
+    "policy definitions match prospective lock",
+    "exact continuous LHS strata and category margins",
+    "disjoint future IDs and training/holdout partitions",
+    "complete policy and checkpoint cross products",
+    "all ledger prefixes and independent stock-flow checks",
+    "nested outcome definitions",
+    "independently recomputed performance and paired counts",
+    "recomputed fresh-holdout PRIM classification scores",
+    "prespecified escalation followed"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "sha256": "7a38d5beac56e2bad8c50dd6de3c66945e7ae4f1e81debe38d104ab567f502b4",
+  "rendered_pages": 4,
+  "all_pages_visually_inspected": true,
+  "figure_count": 1,
+  "date": "2026-10-11T21:10:31.006778+00:00",
+  "render_directory": "render_check/final_v2",
+  "checks": [
+    "All four final pages visually inspected at full resolution",
+    "No clipped tables, overflow or blank pages",
+    "Convergence figure legend moved clear of plotted observations",
+    "Reported counts and criteria checked against completed stage outputs"
+  ]
+}
