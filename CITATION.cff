@@ -3,6 +3,10 @@ message: "Please cite the accompanying paper and identify the model version and 
 type: software
 title: "Strategy financing under deep uncertainty: code and replication materials"
 version: 1.1.0
+date-released: 2026-10-18
+license: MIT
+repository-code: "https://github.com/murrayrudd/strategy-financing-rdm"
+url: "https://github.com/murrayrudd/strategy-financing-rdm/releases/tag/v1.1.0"
 authors:
   - family-names: Rudd
     given-names: Murray A.

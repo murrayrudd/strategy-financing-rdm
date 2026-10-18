@@ -8,4 +8,8 @@ Download the repository source plus both attached result ZIPs. Follow `docs/REPR
 
 Reproducibility note: the original exact replay checks are retained. A separate portable verifier checks numerical agreement and retained full-ledger replays, and reports regenerated configuration hash differences explicitly. Numerical round-off prevented exact regenerated hashes in the packaging environment; see `docs/REPRODUCING.md`.
 
-The earlier feasibility repository is a pinned external dependency. No general open-source license has been selected; source-specific data terms remain in force. The manuscript DOI and public link will be added after posting.
+The earlier feasibility repository is a pinned external dependency. Original project software is available under the MIT License; see `LICENSE_SCOPE.md` for coverage of this frozen release and earlier revisions. Source-specific data terms remain in force. The manuscript DOI and public link will be added after posting.
+
+## Documentation and licensing update — October 18, 2026
+
+Adds the MIT software grant, explicit license scope, BibTeX citation, research links, author profiles, and repository citation metadata. The v1.1.0 tag, archived inputs, model programs, and numerical results remain unchanged.

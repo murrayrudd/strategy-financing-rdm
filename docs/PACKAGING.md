@@ -10,4 +10,6 @@ Distribution changes are confined to compression, root documentation, citation m
 
 The manuscript plot scripts retain the existing plotting logic. Exact v11 images and table exports accompany the scripts. Rendering fonts or versions may change regenerated image bytes without changing the plotted values.
 
-The workflow runs on publication of a release or manual dispatch, after the v1.1.0 result assets exist. No hosted workflow run is claimed by the prepared upload package. Local packaging verification is recorded separately in the upload's validation report.
+The workflow runs on publication of a release or manual dispatch, after the v1.1.0 result assets exist. The [v1.1.0 hosted verification](https://github.com/murrayrudd/strategy-financing-rdm/actions/runs/39171700557) passed on October 18, 2026, including distribution integrity, portable replay, and all nine sampling-replication checks. Local packaging verification is recorded separately in the upload's validation report.
+
+The subsequent documentation update adds an MIT grant for original software and associated software documentation, citation details, and author links. `LICENSE_SCOPE.md` explains coverage of earlier revisions and the unchanged third-party terms. Notices inside frozen archives remain historical records. Update hashes for edited documentation in `DISTRIBUTION_MANIFEST.json` when maintaining the default branch; do not rewrite frozen scientific files or move the v1.1.0 tag.

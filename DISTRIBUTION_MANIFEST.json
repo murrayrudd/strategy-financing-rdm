@@ -15,28 +15,33 @@
     },
     {
       "path": "CITATION.cff",
-      "bytes": 781,
-      "sha256": "517709cb3b2dc7c57bf7b89a0a9fc059871b91f9a9dd6aa987133f482ee82805"
+      "bytes": 972,
+      "sha256": "c6fbdd6f7a65e6c4ed7a2a25f591d6edb36f76992aabab2c0df1a083db53666b"
     },
     {
       "path": "LICENSE.md",
-      "bytes": 711,
-      "sha256": "8e97857488e1186b369cb918c49f7696efa32fb5131ec82dc64a03ef2181b2c9"
+      "bytes": 1071,
+      "sha256": "43557e25e5e95e9bb797535816981b7a2851287b40a677514d11c847b3e133c8"
+    },
+    {
+      "path": "LICENSE_SCOPE.md",
+      "bytes": 1577,
+      "sha256": "82ef32fb0f21846979912a78ee6c544049d6353a28a5c27fdbe0a9c243f27594"
     },
     {
       "path": "README.md",
-      "bytes": 4391,
-      "sha256": "d00ce9acfb14cf8998190ad067ce85d193a6e2ef7396606cdd3a1bd0b749a878"
+      "bytes": 6191,
+      "sha256": "af1bfb0b11cd7a91860ee2fc84d4fb43c8e9de14018ebd5f49af3da0d1e55da0"
     },
     {
       "path": "RELEASE_NOTES.md",
-      "bytes": 1556,
-      "sha256": "2dabc72e4d69b090aa8218f4fecd45b4a1f9a9d9bf82831ad5db9a57dc75a348"
+      "bytes": 1937,
+      "sha256": "1c4c8c17459c116a6551a22a461b5320960d6a84110b75df6f48d22821658911"
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",
-      "bytes": 969,
-      "sha256": "4c6bf9ca9de983d1d4869d3a2d2f41143cf452113ad9f5b304934c0443db3f15"
+      "bytes": 1107,
+      "sha256": "0def1b42db9942703fa558e32b30c361c6d4640fec39f04436c7f30b984ce80b"
     },
     {
       "path": "data/frozen-inputs.zip",
@@ -60,8 +65,8 @@
     },
     {
       "path": "docs/PACKAGING.md",
-      "bytes": 1874,
-      "sha256": "fdba4facdc7cf889195342d556d2eb913a05721e479dc76c7a72e4b09c990cfa"
+      "bytes": 2517,
+      "sha256": "4b871a54b6508475723d63c7939286d78c56fc16de290e97beb68d3b2d6aa29c"
     },
     {
       "path": "docs/REPRODUCING.md",
