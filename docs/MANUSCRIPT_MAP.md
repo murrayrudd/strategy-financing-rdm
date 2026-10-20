@@ -1,6 +1,6 @@
 # Manuscript and code correspondence
 
-The manuscript reference is v11, dated October 18, 2026. The manuscript draft is not included. Its public link and DOI can be added after posting. Displayed table values and exact embedded figure images are retained after unpacking; raw outputs remain separate and preserve full precision.
+The manuscript reference is v11, dated October 18, 2026. The manuscript is available as an [SSRN working paper](https://doi.org/10.2139/ssrn.7632598), DOI `10.2139/ssrn.7632598`. Displayed table values and exact embedded figure images are retained after unpacking; raw outputs remain separate and preserve full precision.
 
 | Paper policy | Code key |
 |---|---|

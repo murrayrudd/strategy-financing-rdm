@@ -6,7 +6,7 @@ Code and replication materials for Murray A. Rudd's study of financing resilienc
 
 The study compares eleven financing policies across the same external futures. It follows payments, reserves, issuance, Bitcoin holdings, and common shareholder exposure from June 2026 through June 2031 and June 2033, with separate one-year issuance-closure challenges. Robust decision making and PRIM scenario discovery connect failure conditions to policy revisions and independent tests. Success shares describe the explored domain; they are not forecasts of corporate default or investment returns.
 
-**Model version:** 1.1.0, frozen October 11, 2026. This upload package adds documentation, portable figure paths, and compressed distribution bundles without changing the simulation programs, policy definitions, locked inputs, or retained numerical results. The paper is a working manuscript; its public link and DOI will be added when available.
+**Model version:** 1.1.0, frozen October 11, 2026. This upload package adds documentation, portable figure paths, and compressed distribution bundles without changing the simulation programs, policy definitions, locked inputs, or retained numerical results. The working paper is available on SSRN: [doi:10.2139/ssrn.7632598](https://doi.org/10.2139/ssrn.7632598).
 
 ## Main findings
 
@@ -55,8 +55,8 @@ The full result CSVs are release attachments because some exceed GitHub's reposi
 
 ## Research basis
 
-**Rudd, M. A. (2026).** *Strategy financing under deep uncertainty*. Working paper;
-the public manuscript link and DOI will be added when available.
+**Rudd, M. A. (2026).** *Strategy financing under deep uncertainty*. SSRN working paper.
+[https://doi.org/10.2139/ssrn.7632598](https://doi.org/10.2139/ssrn.7632598).
 
 This RDM study extends the corporate financing implementation associated with
 [Financing feasibility and shareholder outcomes in a Bitcoin treasury company:
@@ -74,7 +74,9 @@ paper and identify model version 1.1.0 and the repository commit used:
   author = {Rudd, Murray A.},
   title = {Strategy financing under deep uncertainty},
   year = {2026},
-  note = {Working paper; public manuscript URL and DOI forthcoming}
+  doi = {10.2139/ssrn.7632598},
+  url = {https://doi.org/10.2139/ssrn.7632598},
+  note = {SSRN working paper}
 }
 ```
 

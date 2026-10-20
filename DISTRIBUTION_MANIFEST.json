@@ -15,8 +15,8 @@
     },
     {
       "path": "CITATION.cff",
-      "bytes": 972,
-      "sha256": "c6fbdd6f7a65e6c4ed7a2a25f591d6edb36f76992aabab2c0df1a083db53666b"
+      "bytes": 993,
+      "sha256": "f43948013e5963b9696e918aa36fb86e0296cabbd41ac5fdbb8c38776b755fda"
     },
     {
       "path": "LICENSE.md",
@@ -30,13 +30,13 @@
     },
     {
       "path": "README.md",
-      "bytes": 6191,
-      "sha256": "af1bfb0b11cd7a91860ee2fc84d4fb43c8e9de14018ebd5f49af3da0d1e55da0"
+      "bytes": 6268,
+      "sha256": "5e5e833a45100db710922830c6623e3e2a7461c8d053700e9bf114779469199c"
     },
     {
       "path": "RELEASE_NOTES.md",
-      "bytes": 1937,
-      "sha256": "1c4c8c17459c116a6551a22a461b5320960d6a84110b75df6f48d22821658911"
+      "bytes": 1981,
+      "sha256": "ef11a05d3af540cd4faebf287a347429588de0a91a7a6ef9efdbf40eb1e26844"
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",
@@ -60,8 +60,8 @@
     },
     {
       "path": "docs/MANUSCRIPT_MAP.md",
-      "bytes": 2976,
-      "sha256": "3bd1b142e704aac4127369c57f36f46817371ca2a464bc8a8b09eb3f9db36adf"
+      "bytes": 3008,
+      "sha256": "ee942fb2493dfaee9db6ee78d6742f04f9cb446a2cc9a2a7daecd42d05771689"
     },
     {
       "path": "docs/PACKAGING.md",

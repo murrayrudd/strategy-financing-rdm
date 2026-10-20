@@ -25,4 +25,6 @@ preferred-citation:
       given-names: Murray A.
       orcid: "https://orcid.org/0000-0001-9533-5070"
   year: 2026
-  notes: "Working paper. Public manuscript URL and DOI will be added when available."
+  doi: "10.2139/ssrn.7632598"
+  url: "https://doi.org/10.2139/ssrn.7632598"
+  notes: "SSRN working paper."
